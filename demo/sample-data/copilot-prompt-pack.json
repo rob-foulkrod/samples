@@ -1,0 +1,82 @@
+{
+  "classification": "Public",
+  "scenarioTitle": "Commodity Operations Disruption Briefing with Microsoft 365 Copilot",
+  "fictionalMicrosoftFakeCompany": "Northstar Grain Exchange",
+  "disclaimer": "This demo uses a fictional Microsoft Fake Company created for demonstration purposes. Any resemblance to real organizations, people, products, services, or data is coincidental. Do not use customer confidential information in this package.",
+  "technologyFocus": "Microsoft 365 Copilot Chat",
+  "startingExperience": "Microsoft 365 Copilot Chat",
+  "scope": "Use existing Copilot experience with grounded files",
+  "prompts": [
+    {
+      "title": "Create the disruption picture",
+      "text": "Using the attached operations brief, shipment risk register, and supplier sustainability exceptions, summarize the current disruption picture for Northstar Grain Exchange. Group the findings by commodity, corridor, customer impact, and compliance or traceability concern. Return a table with issue, evidence, likely business impact, and recommended next action.",
+      "sources": "northstar-grain-operations-brief.docx, shipment-risk-register.xlsx, supplier-sustainability-exceptions.csv",
+      "format": "Executive summary plus a four-column issue table.",
+      "acceptance": "Mentions at least three corridors, separates logistics risk from sustainability exceptions, and names the highest-risk shipments by invented shipment ID.",
+      "handoff": "Use the prioritized issues for the customer communication draft.",
+      "failure": "If the workbook cannot be read, ask Copilot to use the operations brief and CSV first, then reattach the workbook."
+    },
+    {
+      "title": "Prioritize shipments for intervention",
+      "text": "From the shipment risk register, identify the top 10 shipments requiring intervention in the next 72 hours. Consider risk score, contract value, delivery window, customer tier, inventory buffer, and sustainability exception severity. Return ranked recommendations with owner, reason, and decision needed.",
+      "sources": "shipment-risk-register.xlsx, supplier-sustainability-exceptions.csv",
+      "format": "Ranked table with shipment ID, owner, risk drivers, decision needed, and confidence.",
+      "acceptance": "Uses risk drivers from both the workbook and CSV; does not invent unavailable facts beyond the provided files.",
+      "handoff": "Select the top three customer-facing issues for Prompt 3.",
+      "failure": "If ranking is vague, ask Copilot to show the exact evidence column used for each rank."
+    },
+    {
+      "title": "Draft customer update",
+      "text": "Draft a concise customer update for the three highest-impact shipments using the customer update template. Keep the tone calm, specific, and commercially aware. Include what changed, what Northstar is doing, expected timing, and what the customer needs to decide. Do not mention internal risk scores.",
+      "sources": "customer-update-template.docx, shipment-risk-register.xlsx",
+      "format": "Email-ready draft with subject line and three shipment sections.",
+      "acceptance": "Customer-safe language, no internal scoring, clear asks, and credible operations next steps.",
+      "handoff": "Use the same decisions and commitments in the executive brief.",
+      "failure": "If the response over-shares internal data, ask Copilot to rewrite for customer-facing language only."
+    },
+    {
+      "title": "Prepare executive decision brief",
+      "text": "Using the executive brief template, create a one-page decision brief for the COO. Include the situation, financial exposure, operational tradeoffs, customer risk, sustainability or traceability implications, recommended decisions, and open questions for the 4:00 PM operations call.",
+      "sources": "executive-brief-template.docx, shipment-risk-register.xlsx, supplier-sustainability-exceptions.csv, northstar-grain-operations-brief.docx",
+      "format": "One-page brief with decision table and meeting agenda.",
+      "acceptance": "Includes quantified invented exposure from the workbook, three decisions, and five agenda questions.",
+      "handoff": "Use the agenda to prepare meeting talking points.",
+      "failure": "If the output is too long, ask for a version under 500 words with a decision table."
+    },
+    {
+      "title": "Create meeting talking points",
+      "text": "Turn the executive decision brief into talking points for a 15-minute operations call. Include a 60-second opening, three decision moments, stakeholder-specific objections, and close with assigned owners.",
+      "sources": "expected-output-executive-brief.md",
+      "format": "Timed run-of-show with speaker notes.",
+      "acceptance": "Fits within 15 minutes and includes operations, commercial, sustainability, and finance perspectives.",
+      "handoff": "Use owner assignments to update the risk register after the call.",
+      "failure": "If roles are generic, ask Copilot to map each point to the persona list in the operations brief."
+    },
+    {
+      "title": "Update action tracker",
+      "text": "Create an action tracker from the decisions and open questions. Include action, owner role, due date, dependency, status, and success measure. Use only information already present in the brief and attached files.",
+      "sources": "expected-output-executive-brief.md, shipment-risk-register.xlsx",
+      "format": "Markdown table suitable for pasting into Teams or Loop.",
+      "acceptance": "Every action has an owner role, due date, and measurable outcome; no customer confidential information is included.",
+      "handoff": "Presenter can show how Copilot converts decisions into follow-through.",
+      "failure": "If due dates are missing, ask Copilot to propose due dates relative to the delivery window shown in the workbook."
+    }
+  ],
+  "publicSources": [
+    {
+      "name": "Louis Dreyfus Company - Who We Are",
+      "url": "https://www.ldc.com/who-we-are/",
+      "usage": "Public description of LDC as a merchant and processor of agricultural goods operating across the value chain."
+    },
+    {
+      "name": "Louis Dreyfus Company - Business Lines",
+      "url": "https://www.ldc.com/who-we-are/about-us/our-business-lines/",
+      "usage": "Public list of business lines including Coffee, Cotton, Freight, Food & Feed Solutions, Grains & Oilseeds, Juice, Rice, Sugar, and Global Markets."
+    },
+    {
+      "name": "Louis Dreyfus Company - Sustainability",
+      "url": "https://www.ldc.com/sustainability/",
+      "usage": "Public themes around traceable, agile, efficient supply chains and sustainable practices."
+    }
+  ]
+}

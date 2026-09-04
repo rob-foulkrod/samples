@@ -1,0 +1,87 @@
+{
+  "classification": "Public",
+  "name": "samples",
+  "githubOwner": "rob-foulkrod",
+  "githubRepository": "samples",
+  "scenarioTitle": "Commodity Operations Disruption Briefing with Microsoft 365 Copilot",
+  "fictionalMicrosoftFakeCompany": "Northstar Grain Exchange",
+  "delivery": {
+    "deliveryId": "108584",
+    "course": "CUR.C.MS4021.S Microsoft 365 Copilot Productivity Skilling for Personas",
+    "language": "English",
+    "timeZone": "Eastern Time (US & Canada)",
+    "deliveryType": "Private Delivery"
+  },
+  "disclaimer": "This demo uses a fictional Microsoft Fake Company created for demonstration purposes. Any resemblance to real organizations, people, products, services, or data is coincidental. Do not use customer confidential information in this package.",
+  "publicSources": [
+    {
+      "name": "Louis Dreyfus Company - Who We Are",
+      "url": "https://www.ldc.com/who-we-are/",
+      "usage": "Public description of LDC as a merchant and processor of agricultural goods operating across the value chain."
+    },
+    {
+      "name": "Louis Dreyfus Company - Business Lines",
+      "url": "https://www.ldc.com/who-we-are/about-us/our-business-lines/",
+      "usage": "Public list of business lines including Coffee, Cotton, Freight, Food & Feed Solutions, Grains & Oilseeds, Juice, Rice, Sugar, and Global Markets."
+    },
+    {
+      "name": "Louis Dreyfus Company - Sustainability",
+      "url": "https://www.ldc.com/sustainability/",
+      "usage": "Public themes around traceable, agile, efficient supply chains and sustainable practices."
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "classification": "Public"
+    },
+    {
+      "path": "LICENSE",
+      "classification": "Public"
+    },
+    {
+      "path": "AI-CONTENT-DECLARATION.md",
+      "classification": "Public"
+    },
+    {
+      "path": "manifest.json",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/DEMO-INSTRUCTIONS.md",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/DEMO-INSTRUCTIONS.docx",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/northstar-grain-operations-brief.docx",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/shipment-risk-register.xlsx",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/supplier-sustainability-exceptions.csv",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/customer-update-template.docx",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/executive-brief-template.docx",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/copilot-prompt-pack.json",
+      "classification": "Public"
+    },
+    {
+      "path": "demo/sample-data/expected-output-executive-brief.md",
+      "classification": "Public"
+    }
+  ]
+}

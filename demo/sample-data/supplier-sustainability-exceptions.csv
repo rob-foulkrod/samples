@@ -1,0 +1,39 @@
+Classification,Public
+
+Exception ID,Shipment ID,Supplier ID,Supplier Name,Commodity,Exception Type,Severity,Opened Date,Required Remediation,Owner Role,Status
+EXC-001,NGX-2026-0001,SUP-1055,Cedar Fork Cooperative,Soybean Meal,Chain-of-custody gap,Medium,2026-09-06,Confirm origin documentation,Sustainability Analyst,In review
+EXC-002,NGX-2026-0013,SUP-1079,Blue Heron Merchandising,Coffee Beans,Chain-of-custody gap,Medium,2026-09-06,Review mass balance ledger,Operations Manager,In review
+EXC-003,NGX-2026-0028,SUP-1059,Blue Heron Merchandising,Cottonseed Meal,Chain-of-custody gap,High,2026-09-04,Review mass balance ledger,Operations Manager,Pending supplier
+EXC-004,NGX-2026-0073,SUP-1017,Cedar Fork Cooperative,Soft Red Winter Wheat,Supplier attestation late,Critical,2026-09-03,Upload signed attestation,Operations Manager,Open
+EXC-005,NGX-2026-0053,SUP-1037,Oak Basin Growers,Raw Sugar,Supplier attestation late,Medium,2026-09-03,Upload signed attestation,Sustainability Analyst,Ready for release
+EXC-006,NGX-2026-0064,SUP-1015,Blue Heron Merchandising,Corn,Mass balance variance,Medium,2026-09-03,Upload signed attestation,Supplier Manager,Open
+EXC-007,NGX-2026-0006,SUP-1019,Blue Heron Merchandising,Corn,Mass balance variance,Medium,2026-09-02,Upload signed attestation,Supplier Manager,Ready for release
+EXC-008,NGX-2026-0024,SUP-1034,Cedar Fork Cooperative,Soft Red Winter Wheat,Mass balance variance,Critical,2026-09-01,Confirm origin documentation,Operations Manager,Pending supplier
+EXC-009,NGX-2026-0004,SUP-1005,Oak Basin Growers,Corn,Chain-of-custody gap,Medium,2026-09-04,Review mass balance ledger,Supplier Manager,Pending supplier
+EXC-010,NGX-2026-0006,SUP-1093,Prairie Ridge Origination,Cottonseed Meal,Mass balance variance,High,2026-09-06,Upload signed attestation,Supplier Manager,Pending supplier
+EXC-011,NGX-2026-0112,SUP-1025,Cedar Fork Cooperative,Raw Sugar,Chain-of-custody gap,Medium,2026-09-01,Reconcile lot transfer record,Sustainability Analyst,Pending supplier
+EXC-012,NGX-2026-0112,SUP-1083,Blue Heron Merchandising,Rice,Supplier attestation late,Critical,2026-09-05,Upload signed attestation,Supplier Manager,In review
+EXC-013,NGX-2026-0015,SUP-1067,Cedar Fork Cooperative,Soybean Meal,Supplier attestation late,High,2026-09-01,Confirm origin documentation,Sustainability Analyst,Pending supplier
+EXC-014,NGX-2026-0054,SUP-1031,Prairie Ridge Origination,Rice,Chain-of-custody gap,High,2026-09-05,Confirm origin documentation,Sustainability Analyst,Open
+EXC-015,NGX-2026-0088,SUP-1041,Cedar Fork Cooperative,Cottonseed Meal,Mass balance variance,Medium,2026-09-04,Reconcile lot transfer record,Supplier Manager,In review
+EXC-016,NGX-2026-0008,SUP-1065,Cedar Fork Cooperative,Rice,Mass balance variance,High,2026-09-05,Reconcile lot transfer record,Operations Manager,In review
+EXC-017,NGX-2026-0096,SUP-1013,Prairie Ridge Origination,Soybean Meal,Geo-origin document review,Medium,2026-09-04,Upload signed attestation,Sustainability Analyst,Ready for release
+EXC-018,NGX-2026-0039,SUP-1093,Silverline Elevators,Corn,Mass balance variance,Medium,2026-09-01,Upload signed attestation,Sustainability Analyst,Open
+EXC-019,NGX-2026-0081,SUP-1016,Prairie Ridge Origination,Corn,Mass balance variance,High,2026-09-03,Upload signed attestation,Operations Manager,Open
+EXC-020,NGX-2026-0056,SUP-1049,Oak Basin Growers,Soybean Meal,Geo-origin document review,High,2026-09-01,Confirm origin documentation,Sustainability Analyst,In review
+EXC-021,NGX-2026-0040,SUP-1075,Cedar Fork Cooperative,Cottonseed Meal,Chain-of-custody gap,High,2026-09-02,Review mass balance ledger,Sustainability Analyst,In review
+EXC-022,NGX-2026-0076,SUP-1027,Red River Grain Partners,Corn,Mass balance variance,Medium,2026-09-05,Review mass balance ledger,Supplier Manager,Pending supplier
+EXC-023,NGX-2026-0003,SUP-1047,Prairie Ridge Origination,Soft Red Winter Wheat,Geo-origin document review,Critical,2026-09-03,Upload signed attestation,Sustainability Analyst,In review
+EXC-024,NGX-2026-0086,SUP-1056,Red River Grain Partners,Soft Red Winter Wheat,Mass balance variance,High,2026-09-03,Upload signed attestation,Operations Manager,Pending supplier
+EXC-025,NGX-2026-0086,SUP-1024,Red River Grain Partners,Soybean Meal,Supplier attestation late,High,2026-09-03,Confirm origin documentation,Sustainability Analyst,In review
+EXC-026,NGX-2026-0028,SUP-1095,Blue Heron Merchandising,Soft Red Winter Wheat,Geo-origin document review,Medium,2026-09-01,Confirm origin documentation,Sustainability Analyst,Open
+EXC-027,NGX-2026-0059,SUP-1070,Cedar Fork Cooperative,Coffee Beans,Supplier attestation late,Medium,2026-09-05,Review mass balance ledger,Sustainability Analyst,Ready for release
+EXC-028,NGX-2026-0092,SUP-1032,Silverline Elevators,Cottonseed Meal,Geo-origin document review,Medium,2026-09-01,Reconcile lot transfer record,Operations Manager,Pending supplier
+EXC-029,NGX-2026-0087,SUP-1030,Red River Grain Partners,Soybean Meal,Mass balance variance,Medium,2026-09-01,Confirm origin documentation,Sustainability Analyst,Pending supplier
+EXC-030,NGX-2026-0009,SUP-1028,Cedar Fork Cooperative,Raw Sugar,Mass balance variance,Critical,2026-09-04,Review mass balance ledger,Sustainability Analyst,Open
+EXC-031,NGX-2026-0013,SUP-1095,Oak Basin Growers,Rice,Mass balance variance,High,2026-09-05,Reconcile lot transfer record,Supplier Manager,Ready for release
+EXC-032,NGX-2026-0033,SUP-1059,Silverline Elevators,Raw Sugar,Geo-origin document review,Medium,2026-09-02,Confirm origin documentation,Sustainability Analyst,In review
+EXC-033,NGX-2026-0103,SUP-1058,Oak Basin Growers,Coffee Beans,Geo-origin document review,Critical,2026-09-05,Confirm origin documentation,Supplier Manager,Open
+EXC-034,NGX-2026-0117,SUP-1046,Blue Heron Merchandising,Rice,Chain-of-custody gap,Critical,2026-09-01,Review mass balance ledger,Sustainability Analyst,Open
+EXC-035,NGX-2026-0001,SUP-1026,Red River Grain Partners,Rice,Supplier attestation late,Critical,2026-09-05,Reconcile lot transfer record,Sustainability Analyst,Open
+EXC-036,NGX-2026-0032,SUP-1021,Silverline Elevators,Cottonseed Meal,Chain-of-custody gap,Critical,2026-09-03,Review mass balance ledger,Supplier Manager,Open
