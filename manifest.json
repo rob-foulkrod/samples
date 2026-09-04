@@ -33,55 +33,69 @@
   "files": [
     {
       "path": "README.md",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/README.md"
     },
     {
       "path": "LICENSE",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/LICENSE"
     },
     {
       "path": "AI-CONTENT-DECLARATION.md",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/AI-CONTENT-DECLARATION.md"
     },
     {
       "path": "manifest.json",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/manifest.json"
     },
     {
       "path": "demo/DEMO-INSTRUCTIONS.md",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/demo/DEMO-INSTRUCTIONS.md"
     },
     {
       "path": "demo/DEMO-INSTRUCTIONS.docx",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/DEMO-INSTRUCTIONS.docx"
     },
     {
       "path": "demo/sample-data/northstar-grain-operations-brief.docx",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/northstar-grain-operations-brief.docx"
     },
     {
       "path": "demo/sample-data/shipment-risk-register.xlsx",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/shipment-risk-register.xlsx"
     },
     {
       "path": "demo/sample-data/supplier-sustainability-exceptions.csv",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/supplier-sustainability-exceptions.csv"
     },
     {
       "path": "demo/sample-data/customer-update-template.docx",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/customer-update-template.docx"
     },
     {
       "path": "demo/sample-data/executive-brief-template.docx",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/executive-brief-template.docx"
     },
     {
       "path": "demo/sample-data/copilot-prompt-pack.json",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/demo/sample-data/copilot-prompt-pack.json"
     },
     {
       "path": "demo/sample-data/expected-output-executive-brief.md",
-      "classification": "Public"
+      "classification": "Public",
+      "githubUrl": "https://github.com/rob-foulkrod/samples/blob/main/demo/sample-data/expected-output-executive-brief.md"
     }
-  ]
+  ],
+  "githubUrl": "https://github.com/rob-foulkrod/samples"
 }

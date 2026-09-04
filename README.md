@@ -29,20 +29,21 @@ The scenario is inspired only by public industry themes from Louis Dreyfus Compa
 
 ## Repository contents
 
-| Path | Purpose |
+| Path | GitHub link |
 | --- | --- |
-| [demo/DEMO-INSTRUCTIONS.md](demo/DEMO-INSTRUCTIONS.md) | Presenter script and prompt sequence |
-| [demo/DEMO-INSTRUCTIONS.docx](demo/DEMO-INSTRUCTIONS.docx) | Word version of the same presenter guide |
-| [demo/sample-data/northstar-grain-operations-brief.docx](demo/sample-data/northstar-grain-operations-brief.docx) | Grounding brief with business context, personas, constraints, and priorities |
-| [demo/sample-data/shipment-risk-register.xlsx](demo/sample-data/shipment-risk-register.xlsx) | Primary structured dataset with 120 invented shipments, reference tabs, formulas, and chart |
-| [demo/sample-data/supplier-sustainability-exceptions.csv](demo/sample-data/supplier-sustainability-exceptions.csv) | Traceability and supplier exception data for cross-file reasoning |
-| [demo/sample-data/customer-update-template.docx](demo/sample-data/customer-update-template.docx) | Customer-facing communication template |
-| [demo/sample-data/executive-brief-template.docx](demo/sample-data/executive-brief-template.docx) | COO decision brief template |
-| [demo/sample-data/copilot-prompt-pack.json](demo/sample-data/copilot-prompt-pack.json) | Machine-readable prompt pack and acceptance criteria |
-| [demo/sample-data/expected-output-executive-brief.md](demo/sample-data/expected-output-executive-brief.md) | Example result for presenter validation |
-| [manifest.json](manifest.json) | Public package metadata and file inventory |
-| [AI-CONTENT-DECLARATION.md](AI-CONTENT-DECLARATION.md) | AI transparency and public safety declaration |
-| [LICENSE](LICENSE) | MIT license |
+| `README.md` | [Open](https://github.com/rob-foulkrod/samples/blob/main/README.md) |
+| `LICENSE` | [Open](https://github.com/rob-foulkrod/samples/blob/main/LICENSE) |
+| `AI-CONTENT-DECLARATION.md` | [Open](https://github.com/rob-foulkrod/samples/blob/main/AI-CONTENT-DECLARATION.md) |
+| `manifest.json` | [Open](https://github.com/rob-foulkrod/samples/blob/main/manifest.json) |
+| `demo/DEMO-INSTRUCTIONS.md` | [Open](https://github.com/rob-foulkrod/samples/blob/main/demo/DEMO-INSTRUCTIONS.md) |
+| `demo/DEMO-INSTRUCTIONS.docx` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/DEMO-INSTRUCTIONS.docx) |
+| `demo/sample-data/northstar-grain-operations-brief.docx` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/northstar-grain-operations-brief.docx) |
+| `demo/sample-data/shipment-risk-register.xlsx` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/shipment-risk-register.xlsx) |
+| `demo/sample-data/supplier-sustainability-exceptions.csv` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/supplier-sustainability-exceptions.csv) |
+| `demo/sample-data/customer-update-template.docx` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/customer-update-template.docx) |
+| `demo/sample-data/executive-brief-template.docx` | [Open](https://github.com/rob-foulkrod/samples/raw/main/demo/sample-data/executive-brief-template.docx) |
+| `demo/sample-data/copilot-prompt-pack.json` | [Open](https://github.com/rob-foulkrod/samples/blob/main/demo/sample-data/copilot-prompt-pack.json) |
+| `demo/sample-data/expected-output-executive-brief.md` | [Open](https://github.com/rob-foulkrod/samples/blob/main/demo/sample-data/expected-output-executive-brief.md) |
 
 ## Demo workflow summary
 
